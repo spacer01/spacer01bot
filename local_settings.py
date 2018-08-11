@@ -9,7 +9,7 @@ MY_ACCESS_TOKEN_KEY = '962822936267776000-0mdXANNuYQmkzuVTHYJuP7GoknaMu7V'
 MY_ACCESS_TOKEN_SECRET = 'cj62He01EuNO0r9m42LkVScMM9RgAivJolw1AsuOzG7Is'
 
 # Sources (Twitter, local text file or a web page)
-SOURCE_ACCOUNTS = ["spacer01","NASA","Space_Station","NASAVoyager","neiltyson","SETIInstitute","BadAstronomer"]  # A list of comma-separated, quote-enclosed Twitter handles of account that you'll generate tweets based on. It should look like ["account1", "account2"]. If you want just one account, no comma needed.
+SOURCE_ACCOUNTS = ["spacer01","NASA","Space_Station","NASAVoyager","AFSpace","SETIInstitute","MarsCuriosity","BadAstronomer","NASAKepler","NASA_Hubble","lowflyingrocks","apod","_SpaceWeather_","armysmdc","usnrl"]  # A list of comma-separated, quote-enclosed Twitter handles of account that you'll generate tweets based on. It should look like ["account1", "account2"]. If you want just one account, no comma needed.
 SOURCE_EXCLUDE = r'^$'  # Source tweets that match this regexp will not be added to the Markov chain. You might want to filter out inappropriate words for example.
 STATIC_TEST = False  # Set this to True if you want to test Markov generation from a static file instead of the API.
 TEST_SOURCE = "testcorpus.txt"  # The name of a text file of a string-ified list for testing. To avoid unnecessarily hitting Twitter API. You can use the included testcorpus.txt, if needed.
